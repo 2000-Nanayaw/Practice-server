@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Page Under Construction</title>
+    <style type="text/css">
+        /* Reset default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the container */
+.construction-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Style for the "Under Construction" text */
+.construction-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #007BFF;
+    transform: translateY(50px); /* Initial position */
+    animation: slideUp 1s ease-in-out forwards; /* Animation */
+    transition: transform 0.5s ease-in-out; /* Transition */
+}
+
+/* Keyframes for the animation */
+@keyframes slideUp {
+    0% {
+        transform: translateY(50px); /* Start position */
+    }
+    100% {
+        transform: translateY(0); /* End position */
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="construction-container">
+        <h1 class="construction-text">Page Under Construction</h1>
+    </div>
+</body>
+</html>
